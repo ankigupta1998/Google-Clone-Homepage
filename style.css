@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  font-size: 13px;
+}
+.header a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+.header a:hover {
+  text-decoration: underline;
+}
+.header .material-icons {
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.mainBody {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 10px 20px;
+  /* width: 75vw; */
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 560px;
+  border-radius: 999px;
+}
+.searchBox .Box {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  width: 75vw;
+  flex: 1;
+}
+.searchBox:hover {
+  box-shadow: 0px 0px 4px 0px #b5b5b5;
+}
+.material-icons {
+  color: gray;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#but1,
+#but2 {
+  background-color: #f8f9fa;
+  font-family: arial, sans-serif;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 130px;
+  padding: 10px;
+  margin-top: 7px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 13px;
+}
+#but1:hover,
+#but2:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+.lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.lang__list a {
+  text-decoration: none;
+}
+.lang__list a:hover {
+  text-decoration: underline;
+}
+footer {
+  margin-top: 25vh;
+  flex-grow: 1;
+  background-color: #f2f2f2;
+}
+.loaction {
+  border-bottom: 1px solid #cacaca;
+  font-size: 15px 15px;
+  color: #70757a;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+.footer__Items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer__item,
+.anchor {
+  font-size: 15px;
+  color: #70757a;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+.anchor:hover {
+  text-decoration: underline;
+}
